@@ -46,7 +46,7 @@ public class CharacterController2D : MonoBehaviour
 	void Update()
 	{
 	movement.x = Input.GetAxisRaw("Horizontal");
-	
+
 	}
 
 	private void FixedUpdate()
